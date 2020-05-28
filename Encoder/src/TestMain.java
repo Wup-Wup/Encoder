@@ -64,7 +64,7 @@ public class TestMain {
 		for (int i = 0; i < i + 1; i++) {
 			String sCode = String.valueOf(code);
 			char[] cCode = sCode.toCharArray();
-			if (sCode.length() > iArray.length) {
+			if (sCode.length() > 4) {
 				break;
 			}
 			for (int j = 0; j < iArray.length; j++) {
@@ -129,6 +129,6 @@ public class TestMain {
 				System.out.println();
 			}
 		}
-		System.out.println("Es wurden: "+anzahl+" Möglichkeiten gefunden.");
+		System.out.println("Es wurden: "+anzahl+" MÃ¶glichkeiten gefunden.");
 	}
 }
